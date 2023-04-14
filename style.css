@@ -15,7 +15,7 @@ body {
 }
 
 .section {
-    padding: 2rem 0 4rem;
+    padding: 3rem 0 2.5rem;
 }
 
 button {
@@ -76,6 +76,7 @@ nav {
 .nav_header {
     height: 13vh;
     display: flex;
+    width: 100%;
     align-items: center;
     padding-right: 8%;
     padding-left: 8%;
@@ -278,6 +279,7 @@ span.ab_date {
 .pj_text {
     margin-top: auto;
     margin-top: 50px;
+    margin-bottom: -70px;
     text-align: center;
 }
 
