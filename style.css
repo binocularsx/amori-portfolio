@@ -600,6 +600,13 @@ footer {
         padding-bottom: 100px;
     }
 
+    #ul-1,
+#ul-2 {
+    flex: 1;
+    margin: 0;
+    padding: 13px;
+}
+
     .projects_page_header {
         display: inline-block;
         padding-right: 10%;
@@ -612,6 +619,7 @@ footer {
         font-size: 0.8rem;
         padding: 0.4rem;
         padding-top: 10px;
+        margin-left: 10px;
         cursor: pointer;
     }
     
