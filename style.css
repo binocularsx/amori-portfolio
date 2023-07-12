@@ -60,20 +60,23 @@ button {
 }
 
 nav {
-    flex: 1;
     text-align: center;
 }
 
 .navbar {
     display: flex;
-    padding-left: 7rem;
+    padding-left: 0rem;
     overflow: hidden;
+}
+.nav-ul{
+    display: flex;
+    width: 100%;
 }
 
 
 .navbar ul li {
     list-style: none;
-    display: inline-block;
+
     margin-right: 0px;
     margin-left: 50px;
 }
@@ -91,7 +94,7 @@ nav {
     height: 13vh;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: center;justify-content: space-evenly;
     padding-right: 8%;
     padding-left: 8%;
     top: 0;
@@ -101,6 +104,7 @@ nav {
     /* box-shadow: 0 4px 0px 0 rgba(0, 0, 0, .4); */
     box-shadow: 2px 3px 8px #888888;
 }
+
 
 .nav_button img {
     cursor: pointer;
