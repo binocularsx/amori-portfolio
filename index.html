@@ -18,7 +18,7 @@
         <nav class="navbar " id="navbar ">
             <div class="nav_menu" id="nav_menu">
 
-                <ul>
+                <ul class="nav-ul">
                     <li>
                         <a href="#home " class="nav_link">Home</a>
                     </li>
@@ -33,7 +33,7 @@
                     </li>
                 </ul>
             </div>
-            <a href="#" class="hamburger">&#9776;</a>
+            <a href="#" class="hamburger"  onclick="toggleNav()">&#9776;</a>
         <!-- </nav> -->
         
 
@@ -338,4 +338,15 @@
 </main>
 </body>
 
+<script>
+    /* JavaScript function to toggle the visibility of the navbar */
+    function toggleNav() {
+      var nav = document.getElementById("navbar");
+      if (nav.className === "navbar") {
+        nav.className += " responsive";
+      } else {
+        nav.className = "navbar";
+      }
+    }
+  </script>
 </html>
